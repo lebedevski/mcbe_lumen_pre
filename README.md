@@ -1,4 +1,4 @@
-# Lumen后处理前置开发指南（25.1）
+# Lumen后处理前置开发指南（26.1）
 
 ## 1. 文档概述
 
@@ -150,7 +150,7 @@
 ```json
 {
   "name": "ExampleComposite",
-  "texture_transfer": [
+  "texture": [
     {
       "source": ["postprocess0", 2],
       "target": ["postprocess1", 0],
@@ -210,4 +210,4 @@
 - bind字段添加**项目前缀**防止冲突（如`lumen_`、`example_`）
 
 ---
-*本文档最后更新：2025年12月26日*  
+*本文档最后更新：2026年2月1日*  
